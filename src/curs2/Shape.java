@@ -11,7 +11,7 @@ public class Shape {
 	}
 	
 	public Shape(double radius) {
-		System.out.println("The area of the circle is: " + (radius = radius * radius * Math.PI)); 
+		System.out.println("The area of the circle is: " + radius * radius * Math.PI); 
 	}
 	
 	public int calculateSquareArea(int lenght) {
