@@ -15,11 +15,9 @@ public class ForHomework2 {
 		num = scan.nextInt();
 
 		for (int i = 1; i <= 10; i++) {
-
-			for (int j = 1; j < num; j++) {
-				total = num * i;
-			}
-
+			
+			total = num * i;
+			
 			System.out.println(num + " * " + i + " = " + total);
 
 		}
