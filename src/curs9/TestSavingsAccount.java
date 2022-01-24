@@ -15,9 +15,6 @@ public class TestSavingsAccount {
 		System.out.println("Please enter the amount to withdraw: ");
 		int withdrawSumValue = scan.nextInt();
 		account.withdraw(withdrawSumValue);
-
-		System.out.println("Thank you for using our ATM!");
-
 	}
 
 }

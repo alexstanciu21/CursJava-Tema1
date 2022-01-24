@@ -19,6 +19,7 @@ public class SavingsAccount extends Account {
 			double newBalance = getBalance() - withdrawSum;
 			System.out.println("Please pick your money!");
 			System.out.println("Your new balance is: " + newBalance);
+			System.out.println("Thank you for using our ATM!");
 		}
 
 	}
